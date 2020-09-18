@@ -1,4 +1,4 @@
-```               TAKE IT AND LIKE IT PUBLIC LICENSE 
+```              TAKE IT AND LIKE IT PUBLIC LICENSE 
                     Version 1, December 2020 
 
  Copyright (C) 2020 Arsalan Kazmi <sonicspeed848@gmail.com> 
