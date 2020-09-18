@@ -12,8 +12,9 @@
               TAKE IT AND LIKE IT PUBLIC LICENSE
    TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
 
-  1 - You can take, change, distribute and do whatever with the software as
-  you please.
-  2 - Don't hold me accountable if the software screws you over. That's on you.
+  1 - You can take, change, distribute and do whatever with the
+  software as you please.
+  2 - Don't hold me accountable if the software screws you over.
+  That's on you.
   
  ```
