@@ -1,5 +1,6 @@
 ```
-TAKE IT AND LIKE IT PUBLIC LICENSE 
+
+ TAKE IT AND LIKE IT PUBLIC LICENSE 
                     Version 1, December 2020 
 
  Copyright (C) 2020 Arsalan Kazmi <sonicspeed848@gmail.com> 
@@ -14,4 +15,5 @@ TAKE IT AND LIKE IT PUBLIC LICENSE
   1 - You can take, change, distribute and do whatever with the software as
   you please.
   2 - Don't hold me accountable if the software screws you over. That's on you.
-  ```
+  
+ ```
