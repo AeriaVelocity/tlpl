@@ -14,15 +14,17 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Work+Sans&display=swap');
 
-body (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
   color: #f4f4f4;
   background-color: #333333;
-  font-family: Work Sans;
 }
   
-body (prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
   color: #333333;
   background-color: #f4f4f4;
+}
+  
+body {
   font-family: Work Sans;
 }
 
