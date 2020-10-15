@@ -25,13 +25,11 @@
       100%{   color: white;        }
     }
   </style>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script>
-    $(document).keypress(function(e) {
-      if(e.which == 13) {
-        // Enter key
-      }
-    });
+    document.addEventListener('keypress', logAnyKey);
+    function logAnyKey() { 
+      window.location.replace('https://speedstriker243.github.io/tlpl/'); 
+    }
   </script>
 </head>
 <body>
@@ -43,5 +41,5 @@
     If you believe this is in error, open an issue on <a href="https://github.com/SpeedStriker243/tlpl/issues">TLPL's GitHub page</a>.
   </p>
   <br>
-  <a href="https://speedstriker243.github.io/tlpl">Press ENTER or click here to return to home page<span class="blinking">_</span></a>
+  <a href="https://speedstriker243.github.io/tlpl">Press any key or click here to return to home page<span class="blinking">_</span></a>
 </body>
