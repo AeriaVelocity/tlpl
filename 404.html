@@ -13,6 +13,16 @@
       text-align: center;
       padding: 70px 0;
     }
+    .blinking {
+      animation:blinkingText 1.2s infinite;
+    }
+    @keyframes blinkingText{
+      0%  {   color: #000;        }
+      49% {   color: #000;        }
+      60% {   color: transparent; }
+      99% {   color:transparent;  }
+      100%{   color: #000;        }
+    }
   </style>
 </head>
 <body>
@@ -22,5 +32,5 @@
     Yeah, there's nothing here. Sorry.
   </p>
   <br>
-  <a href="https://speedstriker243.github.io/tlpl">Return to home page</a>
+  <a href="https://speedstriker243.github.io/tlpl">Return to home page<span class="blinking">_</span></a>
 </body>
