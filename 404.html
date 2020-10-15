@@ -7,18 +7,16 @@
       background-color: #0000FF;
       font-family: Courier Prime;
       text-align: center;
-      padding: 70px 0;
     }
     a {
       color: white;
       text-align: center;
-      padding: 70px 0;
       text-decoration: none;
     }
     .blinking {
       animation:blinkingText 1.2s infinite;
     }
-    div {
+    .page {
       height: 400px;
       width: 60%;
       margin: 0 auto;
@@ -26,6 +24,27 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      resize: both;
+      overflow: auto;
+    }
+    .header {
+      height: 10px
+      width: 50%;
+      padding: 20px;
+      resize: both;
+      overflow: auto;
+    }
+    .bsodtext {
+      height: 200px
+      width: 100%;
+      padding: 20px;
+      resize: both;
+      overflow: auto;
+    }
+    .exit {
+      height: 10px
+      width: 50%;
+      padding: 20px;
       resize: both;
       overflow: auto;
     }
@@ -39,10 +58,11 @@
   </style>
 </head>
 <body>
-  <div>
+  <div class="page" contentEditable=false>
+  <div class="header">
   <span style="color: #0000FF; background-color: white">HTTP 404</span>
   </div>
-  <div>
+  <div class="bsodtext">
   <p>
     The page you are trying to access does not exist.
     <br>
@@ -50,8 +70,9 @@
     If you believe this is in error, open an issue on <a href="https://github.com/SpeedStriker243/tlpl/issues">TLPL's GitHub page</a>.
   </p>
   </div>
-  <div>
+  <div class="exit">
   <br>
   <a href="https://speedstriker243.github.io/tlpl">Click here to return to home page<span class="blinking">_</span></a>
+  </div>
   </div>
 </body>
