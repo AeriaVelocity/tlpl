@@ -11,28 +11,50 @@
   <title>Nothing here</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&display=swap');
-    body {
-      color: white;
-      background-color: #0000FF;
-      font-family: Courier Prime;
-      text-align: center;
-      padding: 70px 0;
-    }
-    a {
-      color: white;
-      text-align: center;
-      padding: 70px 0;
-      text-decoration: none;
-    }
+    @media (prefers-color-scheme: light) {
+      body {
+        color: white;
+        background-color: #0000FF;
+        font-family: Courier Prime;
+        text-align: center;
+        padding: 70px 0;
+      }
+      a {
+        color: white;
+        text-align: center;
+        padding: 70px 0;
+        text-decoration: none;
+      }
+      @keyframes blinkingText{
+        0%  {   color: white;        }
+        49% {   color: white;        }
+        60% {   color: transparent; }
+        99% {   color:transparent;  }
+        100%{   color: white;        }
+      }
+    @media (prefers-color-scheme: dark) {
+      body {
+        color: white;
+        background-color: #000000;
+        font-family: Courier Prime;
+        text-align: center;
+        padding: 70px 0;
+      }
+      a {
+        color: white;
+        text-align: center;
+        padding: 70px 0;
+        text-decoration: none;
+      }
+      @keyframes blinkingText{
+        0%  {   color: white;        }
+        49% {   color: white;        }
+        60% {   color: transparent; }
+        99% {   color:transparent;  }
+        100%{   color: white;        }
+      }
     .blinking {
       animation:blinkingText 1.2s infinite;
-    }
-    @keyframes blinkingText{
-      0%  {   color: white;        }
-      49% {   color: white;        }
-      60% {   color: transparent; }
-      99% {   color:transparent;  }
-      100%{   color: white;        }
     }
   </style>
   <script>
