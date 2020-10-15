@@ -5,17 +5,17 @@
       color: white;
       background-color: #0000FF;
       font-family: Courier Prime;
-      text-align: center;
-      padding: 70px 0;
     }
     a {
       color: white;
-      text-align: center;
-      padding: 70px 0;
       text-decoration: none;
     }
     .blinking {
       animation:blinkingText 1.2s infinite;
+    }
+    .flexcontainer {
+      display: flex;
+      align-items: center;
     }
     @keyframes blinkingText{
       0%  {   color: white;        }
@@ -27,13 +27,15 @@
   </style>
 </head>
 <body>
-  <span style="color: #0000FF; background-color: white">HTTP 404</span>
-  <p>
-    The page you are trying to access does not exist. <br>
+  <div class="flexcontainer">
+    <span style="color: #0000FF; background-color: white">HTTP 404</span>
+    <p>
+      The page you are trying to access does not exist. <br>
+      <br>
+      The page may have been deleted, or never existed in the first place. <br>
+      If you believe this is in error, open an issue on <a href="https://github.com/SpeedStriker243/tlpl/issues">TLPL's GitHub page</a>.
+    </p>
     <br>
-    The page may have been deleted, or never existed in the first place. <br>
-    If you believe this is in error, open an issue on <a href="https://github.com/SpeedStriker243/tlpl/issues">TLPL's GitHub page</a>.
-  </p>
-  <br>
-  <a href="https://speedstriker243.github.io/tlpl">Click here to return to home page<span class="blinking">_</span></a>
+    <a href="https://speedstriker243.github.io/tlpl">Click here to return to home page<span class="blinking">_</span></a>
+  </div>
 </body>
