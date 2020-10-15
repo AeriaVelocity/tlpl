@@ -18,16 +18,28 @@
     .blinking {
       animation:blinkingText 1.2s infinite;
     }
+    div {
+      height: 400px;
+      width: 60%;
+      margin: 0 auto;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      resize: both;
+      overflow: auto;
+    }
     @keyframes blinkingText{
-      0%  {   color: white;        }
-      49% {   color: white;        }
-      60% {   color: transparent; }
-      99% {   color:transparent;  }
-      100%{   color: white;        }
+      0%  {color: white;}
+      49% {color: white;}
+      60% {color: transparent;}
+      99% {color: transparent;}
+      100%{color: white;}
     }
   </style>
 </head>
 <body>
+  <div>
   <span style="color: #0000FF; background-color: white">HTTP 404</span>
   <p>
     The page you are trying to access does not exist. <br>
@@ -37,4 +49,5 @@
   </p>
   <br>
   <a href="https://speedstriker243.github.io/tlpl">Click here to return to home page<span class="blinking">_</span></a>
+  </div>
 </body>
