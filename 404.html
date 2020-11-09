@@ -44,9 +44,12 @@
       animation:blinkingText 1.2s infinite;
     }
     .bsodtext {
-      height: 200px;
-      width: 200px;
-      line-height: 200px;
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
     }
     @keyframes blinkingText{
       0%  {   color: white;        }
