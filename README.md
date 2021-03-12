@@ -1,3 +1,10 @@
+# Take it and Like it Public Licence
+TLPL is a permissive software licence. It allows people to take your code and go off and do whatever with it, with zero repercussions on you.
+
+The document uses a mix of "license" and "licence" because the UK decided to spell it slightly differently.
+
+It's recommended you use Version 2, but Version 1 is still available for use.
+## Version 2
 ```
 
               Take it and Like it Public Licence 
@@ -24,3 +31,22 @@
          it isn't anyone else's fault if anything goes wrong.
     
  ```
+## Version 1
+```
+              TAKE IT AND LIKE IT PUBLIC LICENSE 
+                    Version 1, December 2020 
+
+ Copyright (C) 2020 Arsalan Kazmi <sonicspeed848@gmail.com> 
+
+ Everyone is permitted to copy and distribute verbatim or modified 
+ copies of this license document, and changing it is allowed as long 
+ as the name is changed. 
+ 
+              TAKE IT AND LIKE IT PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+
+  1 - You can take, change, distribute and do whatever with the
+  software as you please.
+  2 - Don't hold me accountable if the software screws you over.
+  That's on you.
+```
